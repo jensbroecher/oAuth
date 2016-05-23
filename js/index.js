@@ -141,6 +141,13 @@ var app = {
         }).done(function(user) {
             //Display a greeting if the API call was successful
             $('#greet h1').html('Hello ' + user.name + ' ' + user.email + '!');
+            
+            usersname = user.name;
+            usersemail = user.email;
+            
+            localStorage.setItem("name_from_google", usersname);
+            localStorage.setItem("email_from_google", usersemail);
+            
         }).fail(function() {
             //If getting the token fails, or the token has been
             //revoked, show the login view.
