@@ -98,10 +98,10 @@ var googleapi = {
 };
 
 var app = {
-    client_id: '14325430122.apps.googleusercontent.com',
-    client_secret: 'kjG4087WLUuvC4AIrQEV0lAe',
+    client_id: '1006498509511-tr3oa7961ib6bno994v1svksdhlihhlh.apps.googleusercontent.com',
+    client_secret: 'U06r5XYLvlSmJgt6jF_r7Nhw',
     redirect_uri: 'http://localhost',
-    scope: 'https://www.googleapis.com/auth/userinfo.profile',
+    scope: 'https://www.googleapis.com/auth/plus.login',
 
     init: function() {
         $('#login a').on('click', function() {
