@@ -101,7 +101,7 @@ var app = {
     client_id: '1006498509511-tr3oa7961ib6bno994v1svksdhlihhlh.apps.googleusercontent.com',
     client_secret: 'U06r5XYLvlSmJgt6jF_r7Nhw',
     redirect_uri: 'http://localhost',
-    scope: 'https://www.googleapis.com/auth/plus.login',
+    scope: 'https://www.googleapis.com/auth/userinfo.email',
 
     init: function() {
         $('#login a').on('click', function() {
