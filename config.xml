@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.twosixthreetaxi.app"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <name>oAuth test</name>
+
+    <description>
+		Google oAuth
+    </description>
+
+    <author href="https://www.250taxi.com" email="info@250taxi.com">
+        Jens Bröcher / Afshon Group
+    </author>
+	
+
+		
+	<platform name="android" />	
+
+	<!-- Core plugins -->
+	<gap:plugin name="cordova-plugin-statusbar" source="npm" />
+    <gap:plugin name="cordova-plugin-device" source="npm" />
+    <gap:plugin name="cordova-plugin-device-orientation" source="npm" />
+    <gap:plugin name="cordova-plugin-dialogs" source="npm" />
+    <gap:plugin name="cordova-plugin-file" source="npm" />
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
+    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <gap:plugin name="cordova-plugin-media" source="npm" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+
+    <gap:plugin name="cordova-plugin-screen-orientation" source="npm" />
+    <gap:plugin name="cordova-plugin-fastrde-checkgps" source="npm" />
+    <gap:plugin name="cordova-plugin-barcodescanner" source="npm" />
+        
+    <gap:plugin name="onesignal-cordova-plugin-pgb-compat" source="npm" />
+    <gap:plugin name="cordova-plugin-googleplayservices" source="npm" />
+    <gap:plugin name="cordova-plugin-android-support-v4" source="npm" />
+        
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="*" />
+
+</widget>
