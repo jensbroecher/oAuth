@@ -15,10 +15,24 @@
             </div>
             <div id="greet">
                 <h1></h1>
+                
+                <button onclick="test_local_storage();">Test</button>
+                
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        
+        <script>
+        function test_local_storage() {
+            name_from_google = localStorage.getItem("name_from_google", user.name);
+            email_from_google = localStorage.getItem("email_from_google", user.email);
+            
+            alert(" "+name_from_google+" "+email_from_google+" ");
+        }
+        
+        </script>
+        
     </body>
 </html>
