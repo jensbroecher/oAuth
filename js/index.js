@@ -140,7 +140,7 @@ var app = {
             return googleapi.userInfo({ access_token: data.access_token });
         }).done(function(user) {
             //Display a greeting if the API call was successful
-            $('#greet h1').html('Hello ' + user.name + '!');
+            $('#greet h1').html('Hello ' + user.name + ' ' + user.email + '!');
         }).fail(function() {
             //If getting the token fails, or the token has been
             //revoked, show the login view.
